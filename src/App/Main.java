@@ -51,6 +51,7 @@ public class Main {
 		InputCallbacks.mouseButtonCallback(display.getWindow(), new Mouse());
 		InputCallbacks.mousePositionCallback(display.getWindow(), new MousePosition());
 		InputCallbacks.mouseScrollCallback(display.getWindow(),new MouseScroll());
+		MousePosition.init();
 		//glfwSetKeyCallback(window, keyCallback = new KeyboardHandler());
 		
 		entities = new ArrayList<Entity>();

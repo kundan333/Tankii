@@ -90,7 +90,7 @@ public class Camera {
 	
 	private void calculatePitch() {
 		
-		if(input.Mouse.isButtonDown(GLFW.GLFW_MOUSE_BUTTON_2)) {
+		if(input.Mouse.isButtonDown(GLFW.GLFW_MOUSE_BUTTON_RIGHT)) {
 			float pitchChange = (float)input.MousePosition.getMouseDY() * 0.1f;
 			pitch -= pitchChange;
 			
@@ -100,14 +100,14 @@ public class Camera {
 	
 	private void calculateAngleAroundPlayer() {
 		
-		if(input.Mouse.isButtonDown(GLFW.GLFW_MOUSE_BUTTON_1)) {
+		if(input.Mouse.isButtonDown(GLFW.GLFW_MOUSE_BUTTON_LEFT)) {
 			//MousePosition.wasFirst =  false;
 			float angleChange = (float)input.MousePosition.getMouseDX() * 0.1f;
 			angleAroundPlayer -= angleChange;
 		//	System.out.println("angleAroundPlayer "+angleAroundPlayer);
 			
 		}else {	
-			MousePosition.wasFirst =false;
+			//MousePosition.wasFirst =false;
 		}
 		
 	}
