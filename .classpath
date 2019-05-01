@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Kundan/eclipse-workspace/Tankii/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/jars/PNGDecoder.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-glfw/lwjgl-glfw-natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-glfw/lwjgl-glfw-natives-macos.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-glfw/lwjgl-glfw-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-glfw/lwjgl-glfw.jar" sourcepath="lib/lwjgl-glfw/lwjgl-glfw-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Tankii/lib/lwjgl-glfw/lwjgl-glfw-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jars/lwjgl-opengl.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl-natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl-natives-macos.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl-sources.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/jars/slick-util.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb-natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb-natives-macos.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb-sources.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-stb/lwjgl-stb.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
