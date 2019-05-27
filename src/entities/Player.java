@@ -34,6 +34,7 @@ public class Player extends Entity {
 	}
 	
 	public void move(Terrain terrain) {
+		//System.out.println("called");
 		checkInputs();
 		
 		currentSpeed = Lerp.interpolate(RUN_SPEED_GOAL, currentSpeed, Display.getDeltaTime()*120f);
@@ -72,7 +73,7 @@ public class Player extends Entity {
 		
 		
 		if(KeyboardHandler.isKeyDown(GLFW.GLFW_KEY_W)) {
-			
+			//System.out.println("w is down");
 			//this.currentSpeed = RUN_SPEED;
 			this.RUN_SPEED_GOAL = RUN_SPEED;
 			

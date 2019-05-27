@@ -157,10 +157,11 @@ public class Terrain {
 				int bottomRight = bottomLeft + 1;
 				indices[pointer++] = topLeft;
 				indices[pointer++] = bottomLeft;
-				indices[pointer++] = topRight;
-				indices[pointer++] = topRight;
-				indices[pointer++] = bottomLeft;
 				indices[pointer++] = bottomRight;
+				indices[pointer++] = topLeft;
+				indices[pointer++] = bottomRight;
+				indices[pointer++] = topRight;
+				
 			}
 		}
 		return loader.loadToVAO(vertices, textureCoords, normals, indices);

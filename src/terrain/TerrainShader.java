@@ -70,12 +70,13 @@ public class TerrainShader extends ShaderProgram {
 	
 	
 	public void connectTextureUnits() {
+		super.start();
 		backgroundTexture.loadTexUnit(0);
 		rTexture.loadTexUnit(1);
 		gTexture.loadTexUnit(2);
 		bTexture.loadTexUnit(3);
 		blendMap.loadTexUnit(4);
-		
+		super.stop();
 	}
 	
 	public void loadLight(List<Light> lights) {

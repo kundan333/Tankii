@@ -82,9 +82,9 @@ public class MasterRenderer {
 		
 	}
 	
-	public void renderAll(List<Light> sun,Camera camera,List<Entity> entities/* ,List<Entity> normalMapEntities,Terrain terrain,Vector4f clipPlane*/) {
+	public void renderAll(List<Light> sun,Camera camera,List<Entity> entities/* ,List<Entity> normalMapEntities*/,Terrain terrain/*,Vector4f clipPlane*/) {
 			
-			//processTerrain(terrain);
+			processTerrain(terrain);
 		
 			for(Entity entity:entities){
 				processEntity(entity);
